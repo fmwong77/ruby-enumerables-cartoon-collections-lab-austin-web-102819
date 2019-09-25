@@ -20,6 +20,16 @@ end
 
 def find_the_cheese(array)
  
-  #cheese_types = ["cheddar", "gouda", "camembert"]
-  array.include
+  cheese_types = ["cheddar", "gouda", "camembert"]
+  
+  cheese_types.map {|cheese|
+    counter = 0
+    while counter < array.length do
+      if 
+    end
+  }
+  
+  
+
+ 
 end
