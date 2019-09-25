@@ -31,10 +31,4 @@ def find_the_cheese(array)
   end
 
   returnStr
-   
-  end
-  
-  
-
- 
-end
+end 
