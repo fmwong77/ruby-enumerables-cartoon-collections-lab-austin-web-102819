@@ -6,7 +6,7 @@ end
 
 def summon_captain_planet(array)
   newArr = []
-  array.map do |item|
+  array.map { |item| item.capitalize}
      newArr.push("#{item.Capitalised}!")
   end
   newArr
