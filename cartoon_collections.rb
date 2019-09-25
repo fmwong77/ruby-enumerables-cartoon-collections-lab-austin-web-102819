@@ -25,7 +25,10 @@ def find_the_cheese(array)
   cheese_types.map {|cheese|
     counter = 0
     while counter < array.length do
-      if 
+      if array[0] == cheese
+        return cheese
+      end
+      counter += 1
     end
   }
   
