@@ -24,6 +24,7 @@ def find_the_cheese(array)
   found = false
   cheese_types.map {|cheese|
     counter = 0
+    array.find {|c} c == cheese}
     
     while counter < array.length do
       if array[counter] == cheese
@@ -36,6 +37,7 @@ def find_the_cheese(array)
     if not found 
       return nil
     end
+   
   }
   
   
