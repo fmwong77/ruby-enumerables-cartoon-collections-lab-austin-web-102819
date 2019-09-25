@@ -30,6 +30,8 @@ def find_the_cheese(array)
       end
       counter += 1
     end
+    
+    nil
   }
   
   
