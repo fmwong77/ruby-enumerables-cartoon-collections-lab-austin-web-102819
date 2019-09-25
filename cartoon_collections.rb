@@ -32,7 +32,7 @@ def find_the_cheese(array)
 
   returnStr
    
-  }
+  end
   
   
 
