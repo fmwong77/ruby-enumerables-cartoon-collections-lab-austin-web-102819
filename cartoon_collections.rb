@@ -24,14 +24,18 @@ def find_the_cheese(array)
   
   cheese_types.map {|cheese|
     counter = 0
+    found = false
     while counter < array.length do
       if array[counter] == cheese
+        found = true
         return cheese
       end
       counter += 1
     end
     
-    return nil
+    if not found 
+      return nil
+    end
   }
   
   
