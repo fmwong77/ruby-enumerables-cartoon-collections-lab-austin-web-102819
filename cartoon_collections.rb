@@ -21,22 +21,16 @@ end
 def find_the_cheese(array)
  
   cheese_types = ["cheddar", "gouda", "camembert"]
-  found = false
-  cheese_types.map {|cheese|
-    counter = 0
-    array.find {|c} c == cheese}
-    
-    while counter < array.length do
-      if array[counter] == cheese
-        found = true
-        return cheese
+  returnStr = nil
+  cheese_types.each do |cheese|
+    array.find do |c| 
+      if c == cheese 
+        returnStr = c
       end
-      counter += 1
     end
-    
-    if not found 
-      return nil
-    end
+  end
+
+  returnStr
    
   }
   
