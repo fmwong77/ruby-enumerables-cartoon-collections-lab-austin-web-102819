@@ -23,12 +23,14 @@ def find_the_cheese(array)
   cheese_types = ["cheddar", "gouda", "camembert"]
   returnStr = nil
   cheese_types.each do |cheese|
+    break if returnStr
     array.find do |c| 
       if c == cheese 
         returnStr = c
+        break
       end
     end
   end
 
   returnStr
-end 
+end
